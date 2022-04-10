@@ -15,7 +15,6 @@ SoundsMusic music = SoundsMusic(7);
 ConversionIllum iilum = ConversionIllum(0);
 ConversionTemperature temp = ConversionTemperature(1);
 
-
 void setup() {
   Serial.begin(9600);
   pinMode(A0, INPUT);//
